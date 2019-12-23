@@ -15,7 +15,7 @@ function isEven(c){
 
         return x  * factorial( x - 1 );  
     
-} */
+} */ //this is also a correct method. It is done by calling a function.
 
 function factorial(x){
     var a=1;
@@ -24,4 +24,7 @@ function factorial(x){
     }
     return a;
 }
-  
+function kebabToSnake(str) {
+    var newStr = str.replace(/ - /g  , "_");
+    console.log(newStr);
+}
