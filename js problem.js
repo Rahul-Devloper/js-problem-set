@@ -7,3 +7,21 @@ function isEven(c){
         return false;
     }
 }
+
+/*function factorial(x) { 
+    if (x === 0) {  
+        return 1;  
+    } 
+
+        return x  * factorial( x - 1 );  
+    
+} */
+
+function factorial(x){
+    var a=1;
+    for(var b=2;b<=x;b++){
+        a=a*b;
+    }
+    return a;
+}
+  
