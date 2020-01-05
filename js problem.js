@@ -26,5 +26,5 @@ function factorial(x){
 }
 function kebabToSnake(str) {
     var newStr = str.replace(/ - /g  , "_");
-    console.log(newStr);
+    return newStr;
 }
